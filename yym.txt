@@ -1,1 +1,5 @@
-yym
+CRA 을 사용하여 타입스크립트 리액트 프로젝트 생성 - 프로젝트 이름 선정 후 해당 이름으로 생성
+의존성 설치(axios, react-router-dom, zustand, json-server) 설치
+project-lsa에 있는 폴더 구조 가져오기
+pages폴더 내에 프로젝트 전체 페이지 구조 폴더 생성 > 각 폴더에 index.tsx 파일 생성
+App.tsx에서 react-router-dom으로 해당 페이지 url 설정
