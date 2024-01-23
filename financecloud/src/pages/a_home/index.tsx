@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 //!홈페이지
 //?기능
@@ -13,8 +13,9 @@ import React from 'react'
 //-공지사항, 새소식란 표기
 
 export default function Index() {
-  return(
-    <>
-    </>
+  return (
+  <div>
+    test
+  </div>
   )
 }
