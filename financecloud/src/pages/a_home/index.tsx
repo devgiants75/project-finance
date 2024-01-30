@@ -19,7 +19,7 @@ export default function Index() {
       <article id="home">
         <section id="header">
           <div className="logo__box">
-            <Link to="/">Logo</Link>
+            <Link to="/">logo</Link>
           </div>
           <div className="nav__box">
             <ul>
@@ -36,58 +36,48 @@ export default function Index() {
           </div>
         </section>
         <section id="main-section">
-          <h1 className="section__title">
-            펀딩의 모든 것<br />
-            쉽고 간편하게
-          </h1>
-          <div className="login__box">
-            <Link to="/login">로그인</Link>
-          </div>
-          <div className="nav__box">
-            <ul>
-              <li>
-                <Link to="/login">회원가입</Link>
-              </li>
-              <li>
-                <Link to="/signUp">아이디 찾기</Link>
-              </li>
-              <li>
-                <Link to="/login">비밀번호 찾기</Link>
-              </li>
-            </ul>
+          <div className="wrapper">
+            <div className="t-cell">
+              <h1 className="section__title">
+                펀딩의 모든 것<br />
+                쉽고 간편하게
+              </h1>
+              <div className="login__box">
+                <Link to="/login">로그인</Link>
+              </div>
+              <div className="nav__box">
+                <ul>
+                  <li>
+                    <Link to="/login">회원가입</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
         <section id="main-section">
-          <h1 className="section__title">
-            메이커의 모든 것<br />
-            쉽고 간편하게
-          </h1>
-          <div className="login__box">
-            <Link to="/login">로그인</Link>
-          </div>
-          <div className="nav__box">
-            <ul>
-              <li>
-                <Link to="/login">회원가입</Link>
-              </li>
-              <li>
-                <Link to="/signUp">아이디 찾기</Link>
-              </li>
-              <li>
-                <Link to="/login">비밀번호 찾기</Link>
-              </li>
-            </ul>
+          <div className="wrapper">
+            <div className="t-cell">
+              <h1 className="section__title">
+                메이커의 모든 것<br />
+                쉽고 간편하게
+              </h1>
+              <div className="login__box">
+                <Link to="/login">로그인</Link>
+              </div>
+              <div className="nav__box">
+                <ul>
+                  <li>
+                    <Link to="/login">회원가입</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
-        <section id="board-section">
-          크라우드 펀딩 구조
-        </section>
-        <section id="board-section">
-          홈/관리
-        </section>
-        <section id="notice-section">
-          공지사항/새소식
-        </section>
+        <section id="board-section">크라우드 펀딩 구조</section>
+        <section id="board-section">홈/관리</section>
+        <section id="notice-section">공지사항/새소식</section>
       </article>
     </>
   );
